@@ -1,12 +1,14 @@
+
 /* Start Header Section */
 
 body {
-    font-family: "Montserrat", sans-serif;  
+    font-family: "Montserrat", sans-serif; 
 }
 .header_section {
     background-color: #f5f5f5;
     width: 1440px;
     height: 732px;
+    margin: 0 auto; 
 }
 .header_section .header-top {
     display: flex;
@@ -90,3 +92,106 @@ body {
     font-weight: bold;
     font-size: 16px;
 }
+/* End Header Section */
+
+
+/* Start About Section */
+
+.about_section {
+    width: 1440px;
+    margin: 100px auto; 
+}
+.about_section .about-wrap {
+    display: flex;
+    padding: 0 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+.about_section .about-wrap .left-single-box {
+    width: 560px;
+}
+.about_section .about-wrap .left-single-box h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #14213D;
+}
+.about_section .about-wrap .left-single-box #abt-paragraph {
+    font-size: 24px;
+    color: #FCA311;
+    font-weight: 700;
+}
+.about_section .about-wrap .left-single-box #abt-discussion {
+    color: #333333;
+    font-weight: 600;
+}
+.about_section .about-wrap .left-single-box .abt-btn {
+    margin-top: 50px; 
+}
+.about_section .about-wrap .left-single-box a {
+    padding: 15px 40px;
+    background-color: #FCA311;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+/* End About Section */
+
+
+/* Start Creative Section */
+
+.creative_section {
+    width: 1440px;
+    margin: 100px auto; 
+}
+.creative_section .heading {
+    width: 730px;
+    text-align: center;
+    margin: 0 auto;
+}
+.creative_section .heading h1 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #14213D;
+}
+.creative_section .heading h1 #creative {
+   color: #FCA311; 
+}
+.creative_section .creative-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    width: 1120px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0 100px;
+}
+.creative_section .creative-options .single-box {
+    width: 300px;
+    height: 180px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.creative_section .creative-options .single-box p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+}
+.creative_section .creative-btn-box {
+    margin-top: 50px;
+    text-align: center;
+}
+.creative_section .creative-btn-box a {
+    padding: 15px 40px;
+    background-color: #FCA311;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+/* End Creative section */
