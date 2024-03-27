@@ -195,3 +195,76 @@ body {
     border-radius: 10px;
 }
 /* End Creative section */
+
+
+/* Start Personal Information Section */
+
+.personal_section {
+    width: 1440px;
+    margin: 100px auto;
+}
+.personal_section .personal-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+}
+.personal_section .personal-wrap .left-single-box {
+    width: 475px;
+}
+.personal_section .personal-wrap .left-single-box h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #14213D;
+}
+.personal_section .personal-wrap .left-single-box h1 #name {
+    color: #FCA311;
+}
+.personal_section .personal-wrap .personal-btn-box {
+    width: 271px;
+    height: 54px;
+    border: #FCA311 2px solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #FCA311;
+}
+.personal_section .personal-wrap .personal-btn-box a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FCA311;
+}
+.personal_section .personal-wrap .right-single-box {
+    width: 770px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.personal_section .personal-wrap .right-single-box .content-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #F5F5F5;
+    padding: 25px 30px;
+    border-radius: 10px;
+}
+.personal_section .personal-wrap .right-single-box .content-box p {
+    line-height: 1.5;
+}
+.personal_section .personal-wrap .right-single-box .content-box p #lorem {
+    font-weight: bold;
+}
+.personal_section .personal-wrap .right-single-box .content-box p #year {
+    font-weight: bold;
+}
+.personal_section .personal-wrap .right-single-box .content-box p #book {
+    font-weight: bold;
+}
+.personal_section .personal-wrap .right-single-box .content-box p #electric {
+    font-weight: bold;
+}
+.personal_section .personal-wrap .right-single-box .content-box p #centuries  {
+    font-weight: bold;
+}
