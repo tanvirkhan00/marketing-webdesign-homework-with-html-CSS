@@ -268,3 +268,65 @@ body {
 .personal_section .personal-wrap .right-single-box .content-box p #centuries  {
     font-weight: bold;
 }
+/* End Personal Information Section */
+
+
+/* Start Business Plan Section */
+.business_plan {
+    width: 1440px;
+    margin: 100px auto;
+    background-color: #EEEEEE;
+}
+.business_plan .business-plan-wrap {
+    padding: 100px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.business_plan .business-plan-wrap .left-single-box {
+    width: 793px;
+}
+.business_plan .business-plan-wrap .left-single-box #head {
+    color: #14213D;
+    font-size: 32px;
+    font-weight: 700;
+}
+.business_plan .business-plan-wrap .left-single-box #paragraph {
+    color: #FCA311;
+    font-size: 24px;
+    font-weight: 700;
+}
+.business_plan .business-plan-wrap .left-single-box #details {
+    line-height: 1.5;
+    color: #333333;  
+}
+.business_plan .business-plan-wrap .left-single-box #lorem {
+    font-weight: bold;
+} 
+.business_plan .business-plan-wrap .left-single-box #year {
+    font-weight: bold;
+}
+
+.business_plan .business-plan-wrap .left-single-box .business-btn-box {
+    margin-top: 50px;
+} 
+.business_plan .business-plan-wrap .left-single-box a {
+    padding: 15px 40px;
+    background-color: #FCA311;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.business_plan .business-plan-wrap .left-single-box .img-box {
+    margin-top: 50px;
+    display: flex;
+    gap: 54px;
+}
+.business_plan .business-plan-wrap .right-single-box .img-box img {
+    width: 384px;
+}
+/* End Business Plan Section */
+
+
+
