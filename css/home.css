@@ -2,7 +2,7 @@
 /* Start Header Section */
 
 body {
-    font-family: "Montserrat", sans-serif; 
+    font-family: "Montserrat", sans-serif;   
 }
 .header_section {
     background-color: #f5f5f5;
@@ -327,6 +327,129 @@ body {
     width: 384px;
 }
 /* End Business Plan Section */
+
+
+
+/* Start Footer Section */
+.footer-section {
+    width: 1440px;
+    margin: 0 auto;
+}
+.footer-section .footer-wrap {
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.footer-section .footer-wrap .title {
+    width: 389px;
+}
+.footer-section .footer-wrap .title h1 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #FCA311;
+}
+.footer-section .footer-wrap .main {
+    width: 135px;
+}
+.footer-section .footer-wrap .main h1 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #333333;
+}
+
+.footer-section .footer-wrap .main .details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 40px;
+}
+.footer-section .footer-wrap .main .details a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.footer-section .footer-wrap .main .details  #home {
+    color: #FCA311;
+}
+.footer-section .footer-wrap .main .details  #case-studies {
+    color: #333333;
+    font-weight: 700;
+}
+.footer-section .footer-wrap .main .details  #contact {
+    color: #333333;
+    font-weight: 700;
+}
+
+.footer-section .footer-wrap .case-studies {
+    width: 226px;
+}
+.footer-section .footer-wrap .case-studies h1 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #333333;
+}
+.footer-section .footer-wrap .case-studies .details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 40px;
+}
+.footer-section .footer-wrap .case-studies .details a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333333;
+}
+.footer-section .footer-wrap .information {
+    width: 390px;
+}
+.footer-section .footer-wrap .information h1 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #333333;
+}
+.footer-section .footer-wrap .information-box .location {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-section .footer-wrap .information-box .icon-box i {
+    color: #14213D;
+    padding: 10px 10px;
+}
+.footer-section .footer-wrap .information-box .content p{
+    font-weight: 600;
+}
+.footer-section .footer-wrap .information-box .phone-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-section .footer-wrap .information-box .gmail-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-section .footer-wrap .information-box .social-link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer-section .copyright {
+    background-color: #333333;
+    height: 35px;
+}
+.footer-section .copyright p {
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    font-size: 12px;
+}
+
+
+
+
 
 
 
