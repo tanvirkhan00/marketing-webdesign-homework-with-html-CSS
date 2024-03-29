@@ -354,7 +354,7 @@ body {
 }
 .footer-section .footer-wrap .main h1 {
     font-size: 22px;
-    font-weight: 800;
+    font-weight: 700;
     color: #333333;
 }
 
@@ -386,7 +386,7 @@ body {
 }
 .footer-section .footer-wrap .case-studies h1 {
     font-size: 22px;
-    font-weight: 800;
+    font-weight: 700;
     color: #333333;
 }
 .footer-section .footer-wrap .case-studies .details {
@@ -406,7 +406,7 @@ body {
 }
 .footer-section .footer-wrap .information h1 {
     font-size: 22px;
-    font-weight: 800;
+    font-weight: 700;
     color: #333333;
 }
 .footer-section .footer-wrap .information-box .location {
@@ -446,6 +446,7 @@ body {
     color: white;
     font-size: 12px;
 }
+/* End Footer Section */
 
 
 
