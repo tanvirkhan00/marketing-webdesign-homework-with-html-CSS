@@ -1,0 +1,50 @@
+/* Start PopUp Section */
+
+.popup_section {
+    width: 614px;
+    background-color: white;
+    margin: 0 auto;
+}
+.popup_section .popup-wrap {
+    padding: 42px 32px;
+}
+.popup_section .popup-wrap  .input-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+.popup_section .popup-wrap .input-box #name-label {
+    font-size: 18px;
+    font-weight: 500;
+}
+.popup_section .popup-wrap .input-box .single-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 50px;
+    border: #333333 solid 2px;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin-top: 10px;
+    background-color: #F9F9F9;
+}
+.popup_section .popup-wrap .input-box #input-box {
+    width: 100%;
+    border: none;
+    border-left: #333333 solid 2px;
+    padding: 10px;
+    background-color: #F9F9F9;
+}
+.popup_section .popup-wrap .input-box .btn-box {
+    text-align: center;
+    margin-top: 20px;
+}
+.popup_section .popup-wrap  .input-box .btn-box #connect-btn {
+    padding: 15px 40px;
+    background-color: #FCA311;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* End PopUp Section */

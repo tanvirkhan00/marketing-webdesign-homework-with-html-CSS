@@ -4,9 +4,7 @@ body {
     font-family: "Montserrat", sans-serif;   
 }
 .header_section {
-    background-color: #f5f5f5;
     width: 1440px;
-    height: 732px;
     margin: 0 auto; 
 }
 .header_section .header-top {
@@ -15,7 +13,6 @@ body {
     justify-content: space-between;
     height: 100px;
     padding: 0 80px;
-    background-color: white;
 }
 .header_section .header-top .left-single-box h1 {
     background-color: white;
@@ -35,102 +32,99 @@ body {
     gap: 40px;
 }
 .header_section .right-single-box #home {
+    color: black;
+    text-decoration: none;
     font-weight: 500;
     font-size: 16px;
-    text-decoration: none;
-    color: black;
 }
 .header_section .right-single-box #case-study {
-    color: #FCA311;
     text-decoration: none;
-    border-bottom: 2px solid black;
+    color: black;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
 }
 .header_section .right-single-box #contact {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     color: white;
+    font-weight:600;
     background-color: #FCA311;
     padding: 15px 40px;
     border-radius: 10px;
-}
-.header_section .business-plan-wrap {
-    padding: 100px 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.header_section .business-plan-wrap .left-single-box {
-    width: 793px;
-}
-.header_section .business-plan-wrap .left-single-box #head {
-    color: #14213D;
-    font-size: 32px;
-    font-weight: 700;
-}
-.header_section .business-plan-wrap .left-single-box #paragraph {
-    color: #FCA311;
-    font-size: 24px;
-    font-weight: 700;
-}
-.header_section .business-plan-wrap .left-single-box #details {
-    line-height: 1.5;
-    color: #333333;  
-}
-.header_section .business-plan-wrap .left-single-box #lorem {
-    font-weight: bold;
-} 
-.header_section .business-plan-wrap .left-single-box #year {
-    font-weight: bold;
-}
-
-.header_section .business-plan-wrap .left-single-box .business-btn-box {
-    margin-top: 50px;
-} 
-.header_section .business-plan-wrap .left-single-box a {
-    padding: 15px 40px;
-    background-color: #FCA311;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 10px;
-}
-.header_section .business-plan-wrap .left-single-box .img-box {
-    margin-top: 50px;
-    display: flex;
-    gap: 54px;
-}
-.header_section .business-plan-wrap .right-single-box .img-box img {
-    width: 384px;
 }
 /* End Header Section */
 
 
+/* Start Contact Section*/
 
-/* Start Case Studies Section */
-
-.case-studies_section {
+.contact_section {
     width: 1440px;
-    margin: 100px auto;
+    background-color: #EDEDED;
+    margin: 0 auto;
 }
-.case-studies_section .case-studies-wrap h1 {
-    text-align: center;
-    color: #14213D;
-    font-size: 32px;
+.contact_section .contact-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+}
+.contact_section .contact-wrap .left-single-box h1 {
+    width: 587px;
+    font-size: 57px;
     font-weight: 700;
 }
-.case-studies_section .case-studies-wrap .studies-box {
-    width: 1072px;
-    margin: 100px auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 70px;
+.contact_section .contact-wrap .right-single-box {
+    width: 618px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
 }
-/* End Case Studies Section */
+.contact_section .contact-wrap .right-single-box .input-box {
+    padding: 42px 32px;
+}
+.contact_section .contact-wrap .right-single-box .input-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact_section .right-single-box .input-box .name {
+    height: 82px;
+}
+.contact_section .right-single-box .input-box #name-label {
+    font-size: 18px;
+    font-weight: 500;
+}
+.contact_section .right-single-box .input-box .single-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 50px;
+    border: #333333 solid 2px;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+.contact_section .right-single-box .input-box #input-box {
+    width: 100%;
+    border: none;
+    border-left: #333333 solid 2px;
+    padding: 10px;
+}
+.contact_section .right-single-box .input-box .btn-box {
+    text-align: center;
+}
+.contact_section .right-single-box .input-box .btn-box #connect-btn {
+    padding: 15px 40px;
+    background-color: #FCA311;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+}
+/* End Contact Section */
+
 
 
 /* Start Footer Section */
+
 .footer-section {
     width: 1440px;
     margin: 0 auto;
@@ -173,11 +167,11 @@ body {
     color: #333333;
 }
 .footer-section .footer-wrap .main .details  #case-studies {
-    color: #FCA311;
+    color: #333333;
     font-weight: 700;
 }
 .footer-section .footer-wrap .main .details  #contact {
-    color: #333333;
+    color: #FCA311;
     font-weight: 700;
 }
 
